@@ -56,9 +56,8 @@ entries:
     urls:
     - assets/homepage/homepage-0.1.0.tgz
     version: 0.1.0
-  test-certified:
+  test-not-certified:
   - annotations:
-      catalog.cattle.io/certified: rancher
       catalog.cattle.io/namespace: cattle-ui-plugin-system
       catalog.cattle.io/os: linux
       catalog.cattle.io/permits-os: linux, windows
@@ -69,7 +68,7 @@ entries:
     created: "2022-09-26T11:20:13.148534+01:00"
     description: Test plugin that should show as experimental
     digest: 229b11aa86fc611d84cddbb24546f7cb6b5d5956bf4dc31a13ddfa6e6123dd86
-    name: test-certified
+    name: test-not-certified
     type: application
     urls:
     - assets/homepage/homepage-0.1.0.tgz
